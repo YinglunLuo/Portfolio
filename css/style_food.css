@@ -1,0 +1,57 @@
+header{
+    background-image: url('../image/Food/header.jpg');
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6vw;
+    padding: 50px;
+    color: white;
+  }
+  
+  .nav_links{
+    font-size: 2vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .nav_links>li{
+    padding: 1vh;
+  }
+  
+  img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  a:link{
+    color: green;
+    font-weight: bold;
+  }
+  
+  a:visited{
+    color: orange;
+    font-weight: bold;
+  }
+  
+  main{
+    padding: 5vw;
+    background-color: #524e2e;
+    color: white;
+  }
+
+  .container{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 2vw;
+  }
+
+  img{
+      height:250px;
+  }
+
+  h2{
+      font-weight: bold;
+      font-size: 5vw;
+  }
